@@ -1,0 +1,39 @@
+-- Sample products
+INSERT INTO products VALUES
+(1, 'Laptop', 999.99, 'Electronics'),
+(2, 'Mouse', 25.50, 'Electronics'),
+(3, 'T-Shirt', 19.99, 'Clothing'),
+(4, 'Jeans', 49.99, 'Clothing'),
+(5, 'Book', 15.00, 'Books');
+
+-- Sample customers
+INSERT INTO customers VALUES
+(1, 'Rahul Sharma', 'Nagpur', 'MH'),
+(2, 'Priya Patel', 'Mumbai', 'MH'),
+(3, 'Amit Singh', 'Nagpur', 'MH'),
+(4, 'Sneha Gupta', 'Pune', 'MH'),
+(5, 'Vikram Desai', 'Mumbai', 'MH');
+
+-- Sample employees
+INSERT INTO employees VALUES
+(101, 'Manager John', NULL, '2024-01-01'),
+(102, 'Rep Alice', 101, '2024-03-15'),
+(103, 'Rep Bob', 101, '2024-06-20'),
+(104, 'Rep Carol', 102, '2025-01-10');
+
+-- Sample orders (2025 dates)
+INSERT INTO orders VALUES
+(1001, '2025-01-15', 1, 102, 'Completed'),
+(1002, '2025-01-16', 2, 103, 'Completed'),
+(1003, '2025-02-01', 3, 102, 'Shipped'),
+(1004, '2025-02-05', 1, 103, 'Completed'),
+(1005, '2025-02-10', 4, 104, 'Cancelled');
+
+-- Sample order items
+INSERT INTO order_items VALUES
+(1, 1001, 1, 1),
+(2, 1001, 2, 2),
+(3, 1002, 3, 3),
+(4, 1003, 1, 1),
+(5, 1004, 4, 1),
+(6, 1005, 5, 1);
