@@ -1,0 +1,11 @@
+ProductID,ProductName,Category,Price,Cost
+P001,Laptop,Electronics,1200,800
+P002,Headphones,Accessories,80,40
+P003,Coffee Maker,Home Appliances,150,90
+P004,Desk Chair,Furniture,220,150
+P005,Smartphone,Electronics,900,600
+P006,Monitor,Electronics,300,200
+P007,Keyboard,Accessories,50,25
+P008,Mouse,Accessories,40,20
+P009,Tablet,Electronics,500,350
+P010,Office Desk,Furniture,350,250
